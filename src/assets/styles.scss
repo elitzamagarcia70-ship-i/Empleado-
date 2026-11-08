@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@use 'primeicons/primeicons.css';
+@use '@/assets/layout/layout.scss';
+@use '@/assets/demo/demo.scss';
+
+/* Fondo azul de la aplicación */
+:root {
+    --surface-ground: #1e5fa8;
+}
+body,
+.layout-wrapper {
+    background: linear-gradient(135deg, #0d2b52 0%, #1565c0 55%, #42a5f5 100%) fixed;
+}
+.layout-main-container {
+    background: transparent;
+}
